@@ -3,7 +3,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
 }
 input, textarea{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,7 +21,7 @@ fieldset{
 }
 
 p{
-    max-width: 600px;
+    max-width: 800px;
 }
 
 hr{
@@ -32,7 +33,7 @@ hr{
 }
 
 .player-info{
-    max-width: 600px;
+   
     display: flex;
     flex-direction: column;
     background-color: #1c426d;
@@ -43,7 +44,7 @@ hr{
 
 .player-info__field{
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 0.5rem;
 }
