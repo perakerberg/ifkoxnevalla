@@ -10,9 +10,9 @@
     />
     <h1>Information om spelare</h1>
     <p>
-      Vi behöver information om ert barn och dig/er som förälder. Informationen
-      är till för att registrera ert barn på laget.se (vår hemsida och
-      informationssystem) Samt vid olika matcher och cuper.
+      Vi behöver information om ert barn och minst en vårdnadshavare.
+      Informationen är till för att registrera ert barn på laget.se (vår hemsida
+      och informationssystem) Samt vid olika matcher och cuper.
     </p>
 
     <form
@@ -39,12 +39,12 @@
         <hr />
 
         <div class="player-info__field">
-          <span>Förälders namn:</span>
+          <span>Vårdnadshavares namn:</span>
           <input type="text" name="parent1-name" />
         </div>
         <div class="player-info__field">
           <span>Telefonnummer:</span>
-          <input type="text" name="parent1-phone" />
+          <input type="tel" name="parent1-phone" />
         </div>
         <div class="player-info__field">
           <span>Mailadress:</span>
@@ -52,12 +52,12 @@
         </div>
         <hr />
         <div class="player-info__field">
-          <span>Förälders namn:</span>
+          <span>Vårdnadshavares namn:</span>
           <input type="text" name="parent2-name" />
         </div>
         <div class="player-info__field">
           <span>Telefonnummer:</span>
-          <input type="phone" name="parent2-phone" />
+          <input type="tel" name="parent2-phone" />
         </div>
         <div class="player-info__field">
           <span>Mailadress:</span>
@@ -66,8 +66,14 @@
         <hr />
 
         <div class="player-info__field">
-          <span>Annat vi behöver veta?:</span>
-          <input type="textarea" name="other-info" />
+          <span>Övrig information:</span>
+          <textarea
+            id="w3review"
+            name="other-info"
+            rows="4"
+            cols="50"
+            placeholder="Allergier, eller annat vi behöver veta? "
+          ></textarea>
         </div>
         <hr />
 
