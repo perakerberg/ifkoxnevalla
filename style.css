@@ -1,0 +1,23 @@
+.hidden{
+    display: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.player-info{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.player-info__field{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+}
