@@ -98,31 +98,22 @@
         <hr />
 
         <div class="player-info__field--column">
-          <span
-            >Godkänner ni att vi publicerar bilder på ert barn på vår hemsida, i
-            utskick eller i pressen?</span
-          >
-          <fieldset name="Integritet">
-            <div>
-              <input
-                type="radio"
-                id="photo-ok"
-                name="får-använda-foto"
-                value="ja"
-                checked
-              />
-              <label for="photo-ok">Ja</label>
-            </div>
-
-            <div>
-              <input
-                type="radio"
-                id="photo-nok"
-                name="får-använda-foto"
-                value="nej"
-              />
-              <label for="photo-nok">Nej</label>
-            </div>
+          <fieldset>
+            <legend>
+              Godkänner ni att vi publicerar bilder på ert barn på vår hemsida,
+              i utskick eller i pressen?
+            </legend>
+            <p>
+              <label>
+                <input type="radio" checked name="godkänner-foto" value="Ja" />
+                Ja
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="godkänner-foto" value="Nej" /> Nej
+              </label>
+            </p>
           </fieldset>
         </div>
       </div>
