@@ -9,6 +9,7 @@ body{
 input, textarea{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0.5rem;
+    margin-bottom:0.25rem;
 
 }
 fieldset{
@@ -25,28 +26,22 @@ p{
 }
 
 hr{
-    height: 2px;
+    height: 16px;
     color: white;
-    border: 1px solid white;
+    border: none;
     width: 100%;
     background: white;
+    margin:0;
 }
 
 .player-info{
    
     display: flex;
     flex-direction: column;
-    background-color: #1c426d;
-    color:#fefefe;
+    
+    
     justify-content: center;
     
-}
-
-.player-info__field{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    padding: 0.5rem;
 }
 
 .player-info__field > *{
