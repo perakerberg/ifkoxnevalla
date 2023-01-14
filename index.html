@@ -23,13 +23,30 @@
       rel="shortcut icon"
       href="https://az729104.cdn.laget.se/emblem_5377565.png;width=480;height=480;paddingWidth=16;mode=pad;scale=both;anchor=middlecenter"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
       href="https://az729104.cdn.laget.se/emblem_5377565.png;width=84;height=84;paddingWidth=15;bgColor=1c426d;mode=pad;scale=both;anchor=middlecenter"
     />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var body = document.getElementsByTagName("body")[0];
+        setTimeout(() => {
+          body.classList.remove("intro");
+        }, 2500);
+      });
+    </script>
   </head>
-  <body>
+  <body class="intro">
+    <div class="overlay">
+      <h1>Välkommen till IFK Öxnevalla</h1>
+    </div>
     <img
       src="https://az729104.cdn.laget.se/emblem_5377565.png;width=270;height=270;paddingWidth=20;mode=pad;scale=both;anchor=middlecenter"
     />
