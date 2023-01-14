@@ -50,38 +50,38 @@
       <div class="player-info">
         <div class="player-info__field">
           <span>Spelares namn:</span>
-          <input type="text" name="player-name" />
+          <input type="text" required name="spelare-namn" />
         </div>
         <div class="player-info__field">
           <span>Spelares personnummer:</span>
-          <input type="text" name="player-ssn" />
+          <input type="text" required name="spelare-personnummer" />
         </div>
         <hr />
 
         <div class="player-info__field">
           <span>Vårdnadshavares namn:</span>
-          <input type="text" name="parent1-name" />
+          <input type="text" name="förälder1" required />
         </div>
         <div class="player-info__field">
           <span>Telefonnummer:</span>
-          <input type="tel" name="parent1-phone" />
+          <input type="tel" name="förälder1-telefon" required />
         </div>
         <div class="player-info__field">
           <span>Mailadress:</span>
-          <input type="email" name="parent1-mail" />
+          <input type="email" name="förälder1-mail" required />
         </div>
         <hr />
         <div class="player-info__field">
           <span>Vårdnadshavares namn:</span>
-          <input type="text" name="parent2-name" />
+          <input type="text" name="förälder2-name" />
         </div>
         <div class="player-info__field">
           <span>Telefonnummer:</span>
-          <input type="tel" name="parent2-phone" />
+          <input type="tel" name="förälder2-phone" />
         </div>
         <div class="player-info__field">
           <span>Mailadress:</span>
-          <input type="email" name="parent2-mail" />
+          <input type="email" name="förälder2-mail" />
         </div>
         <hr />
 
@@ -89,7 +89,7 @@
           <span>Övrig information:</span>
           <textarea
             id="w3review"
-            name="other-info"
+            name="övrig-info"
             rows="4"
             cols="50"
             placeholder="Allergier, eller annat vi behöver veta? "
@@ -107,7 +107,7 @@
               <input
                 type="radio"
                 id="yes"
-                name="publish-approve"
+                name="får-använda-foto"
                 value="yes"
                 checked
               />
@@ -115,7 +115,7 @@
             </div>
 
             <div>
-              <input type="radio" id="no" name="publish-approve" value="no" />
+              <input type="radio" id="no" name="får-använda-foto" value="no" />
               <label for="no">Nej</label>
             </div>
           </fieldset>
