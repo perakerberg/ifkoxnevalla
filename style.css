@@ -21,10 +21,16 @@ fieldset{
     display: none;
 }
 
-p{
+p.subtitle{
     max-width: 800px;
+    padding: 1rem;
 }
-
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left:1rem;
+    padding-right:1rem;
+}
 hr{
     height: 16px;
     color: white;
@@ -35,7 +41,7 @@ hr{
 }
 
 .player-info{
-   
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     

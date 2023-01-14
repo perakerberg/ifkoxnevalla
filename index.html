@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
 
     <!-- App Icons -->
@@ -29,7 +31,7 @@
       src="https://az729104.cdn.laget.se/emblem_5377565.png;width=270;height=270;paddingWidth=20;mode=pad;scale=both;anchor=middlecenter"
     />
     <h1>Information om spelare</h1>
-    <p>
+    <p class="subtitle">
       Vi behöver information om ert barn och minst en vårdnadshavare.
       Informationen är till för att registrera ert barn på laget.se (vår hemsida
       och informationssystem) Samt vid olika matcher och cuper.
@@ -125,26 +127,29 @@
               Godkänner ni att vi publicerar bilder på ert barn på vår hemsida,
               i utskick eller i pressen?
             </legend>
-            <p>
+            <p style="margin-top: 0.5rem">
               <label>
                 <input type="radio" checked name="godkänner-foto" value="Ja" />
                 Ja
               </label>
             </p>
-            <p>
+            <p style="margin-top: 0.5rem">
               <label>
                 <input type="radio" name="godkänner-foto" value="Nej" /> Nej
               </label>
             </p>
           </fieldset>
         </div>
+        <div style="margin-top: 1rem; display: flex; width: 100%">
+          <button
+            style="flex: 1; font-size: 1.5rem"
+            type="submit"
+            style="font-size: 2rem; padding-top: 6px"
+          >
+            Skicka
+          </button>
+        </div>
       </div>
-
-      <p>
-        <button type="submit" style="font-size: 2rem; padding-top: 6px">
-          Skicka
-        </button>
-      </p>
     </form>
   </body>
 </html>
