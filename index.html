@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<form
+  name="coaches-details"
+  method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+  action="/tack-ledare"
+>
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
+  </p>
+  
+  <div style="display: fle; flex-direction: column">
+    <span style="font-family: Luckiest Guy; padding-top: 2rem;font-size:1.5rem; display: block;">Namn: </span>
+      <input type="text" name="name" style="font-size: 1.5rem; width: 90%" />
+    <span style="font-family: Luckiest Guy; padding-top: 2rem;font-size:1.5rem; display: block;"> Personnummer:</span>
+      <input type="text" name="ssn" style="font-size: 1.5rem; width: 90%" />
+      <span style="font-family: Luckiest Guy; padding-top: 2rem;font-size:1.5rem; display: block;">Storlek T-shirt </span>
+      
+<select id="tshirt" name="tshirt" style="font-family: Luckiest Guy; padding:2px; font-size: 1.5rem">
+  <option value="xs">xs</option>
+  <option value="s">s</option>
+  <option value="m">m</option>
+  <option value="l">l</option>
+  <option value="l">xl</option>
+  <option value="l">xxl</option>
+ 
+</select>
+   <span style="font-family: Luckiest Guy; padding-top: 2rem;font-size:1.5rem; display: block;">Storlek tröja </span>
+      
+<select id="shirt" name="shirt" style="font-family: Luckiest Guy; padding:2px; font-size: 1.5rem">
+  <option value="xs">xs</option>
+  <option value="s">s</option>
+  <option value="m">m</option>
+  <option value="l">l</option>
+  <option value="l">xl</option>
+  <option value="l">xxl</option>
+
+ 
+</select>
+    <span style="font-family: Luckiest Guy; padding-top: 2rem;font-size:1.5rem; display: block;">Storlek shorts </span>
+      
+<select id="shorts" name="shorts" style="font-family: Luckiest Guy; padding:2px; font-size: 1.5rem">
+  <option value="xs">xs</option>
+  <option value="s">s</option>
+  <option value="m">m</option>
+  <option value="l">l</option>
+  <option value="l">xl</option>
+  <option value="l">xxl</option>
+
+ 
+</select>
+   
+  </div>
+  
+  <p>
+    <button type="submit" style="font-family: Luckiest Guy; font-size: 2rem; padding-top:6px">Skicka</button>
+  </p>
+</form>
+
+
+
+<div style="font-family: Luckiest Guy; font-size:2rem; margin-top:2rem; display: block;">Glöm inte: Utbildning 2 juni 17:30!</div>
+</body>
+</html>
