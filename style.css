@@ -1,23 +1,61 @@
-.hidden{
-    display: none;
-}
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+
+}
+fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.hidden{
+    display: none;
+}
+
+p{
+    max-width: 600px;
+}
+
+hr{
+    height: 2px;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    background: white;
 }
 
 .player-info{
     max-width: 600px;
     display: flex;
     flex-direction: column;
+    background-color: #1c426d;
+    color:#fefefe;
+    justify-content: center;
     
 }
 
 .player-info__field{
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 200px 1fr;
     gap: 1rem;
+    padding: 0.5rem;
+}
+
+.player-info__field > *{
+   
+    padding: 0.5rem;
+}
+
+.player-info__field--column{
+    display: flex;
+   flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
 }

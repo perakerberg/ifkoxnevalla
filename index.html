@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <img
+      src="https://az729104.cdn.laget.se/emblem_5377565.png;width=270;height=270;paddingWidth=20;mode=pad;scale=both;anchor=middlecenter"
+    />
     <h1>Information om spelare</h1>
     <p>
       Vi behöver information om ert barn och dig/er som förälder. Informationen
@@ -33,8 +36,10 @@
           <span>Spelares personnummer:</span>
           <input type="text" name="player-ssn" />
         </div>
+        <hr />
+
         <div class="player-info__field">
-          <span>Namn:</span>
+          <span>Förälders namn:</span>
           <input type="text" name="parent1-name" />
         </div>
         <div class="player-info__field">
@@ -45,8 +50,9 @@
           <span>Mailadress:</span>
           <input type="email" name="parent1-mail" />
         </div>
+        <hr />
         <div class="player-info__field">
-          <span>Namn:</span>
+          <span>Förälders namn:</span>
           <input type="text" name="parent2-name" />
         </div>
         <div class="player-info__field">
@@ -57,11 +63,15 @@
           <span>Mailadress:</span>
           <input type="email" name="parent2-mail" />
         </div>
+        <hr />
+
         <div class="player-info__field">
           <span>Annat vi behöver veta?:</span>
           <input type="textarea" name="other-info" />
         </div>
-        <div class="player-info__field">
+        <hr />
+
+        <div class="player-info__field--column">
           <span
             >Godkänner ni att vi publicerar bilder på ert barn på vår hemsida, i
             utskick eller i pressen?</span
@@ -87,10 +97,7 @@
       </div>
 
       <p>
-        <button
-          type="submit"
-          style="font-family: Luckiest Guy; font-size: 2rem; padding-top: 6px"
-        >
+        <button type="submit" style="font-size: 2rem; padding-top: 6px">
           Skicka
         </button>
       </p>
