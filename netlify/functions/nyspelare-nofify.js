@@ -12,7 +12,7 @@ exports.handler = async (event) => {
       from: "Notifier <onboarding@resend.dev>",
       to: ["per.akerberg@live.se"],
       subject: "Ny spelare!",
-      html: 'Ett nytt formulärsvar finns på Netlify. <a href="https://app.netlify.com/projects/steady-torrone-0448de/forms">Klicka här för att kontrollera</a>.',
+      html: 'Ett nytt formulärsvar finns på Netlify. <a href="https://app.netlify.com/projects/steady-torrone-0448de/forms/63c2bc56058c3900087fd40b">Klicka här för att kontrollera</a>.',
     }),
   });
 
