@@ -126,3 +126,7 @@ body.intro > .overlay{
     transition: all 2s ease;
 }
 
+a{
+    color: white;
+}
+
