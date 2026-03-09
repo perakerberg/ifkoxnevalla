@@ -1,6 +1,5 @@
-const fetch = require("node-fetch");
-
 exports.handler = async (event) => {
+  const fetch = (await import("node-fetch")).default;
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
   await fetch("https://api.resend.com/emails", {
